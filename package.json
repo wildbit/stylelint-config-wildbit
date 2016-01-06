@@ -1,0 +1,37 @@
+{
+  "name": "stylelint-config-wildbit",
+  "version": "1.0.0",
+  "description": "Shareable stylelint config",
+  "main": "index.js",
+  "scripts": {
+    "tape": "babel-tape-runner \"__tests__/**/*.js\"",
+    "test": "npm run tape"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildbit/stylelint-config-wildbit.git"
+  },
+  "keywords": [
+    "stylelint",
+    "config"
+  ],
+  "author": "Andrey Okonetchnikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wildbit/stylelint-config-wildbit/issues"
+  },
+  "homepage": "https://github.com/wildbit/stylelint-config-wildbit#readme",
+  "dependencies": {
+    "stylelint-selector-bem-pattern": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-tape-runner": "^2.0.0",
+    "stylelint": "^3.2.0",
+    "tape": "^4.4.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
