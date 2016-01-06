@@ -5,11 +5,12 @@ module.exports = {
   ],
   rules: {
     // BEM linter rules
-    'selector-bem-pattern': [2, {
+    'selector-bem-pattern': {
       componentSelectors: function(componentName) {
-        return new RegExp('\\.ns-' + componentName + '(?:-[a-zA-Z]+)?');
+        //return new RegExp('\\.' + componentName + '(?:-[a-zA-Z]+)?');
+        return new RegExp('&(_|--)([a-zA-Z]+)?');
       }
-    }],
+    },
 
     'string-quotes': 'double',
     'color-no-invalid-hex': true,
