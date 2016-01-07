@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "babel-tape-runner": "^2.0.0",
+    "glob": "^6.0.3",
     "stylelint": "^3.2.0",
     "tape": "^4.4.0"
   },

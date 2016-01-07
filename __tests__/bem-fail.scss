@@ -1,0 +1,33 @@
+/** @define FailingBlock */
+
+.FailingBlock {
+  display: block;
+
+  &__el {
+    opacity: 1;
+
+    &-mod {
+      opacity: 0;
+    }
+  }
+
+  ul > li {
+    list-style: none;
+  }
+
+  .test {
+    display: none;
+  }
+}
+
+.FailingBlock__el {
+  display: block;
+}
+
+.FailingBlock__el-mod {
+  display: block;
+}
+
+.FailingBlock_el_mod {
+  display: inline-block;
+}
