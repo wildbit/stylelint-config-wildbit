@@ -7,6 +7,7 @@
     "tape": "babel-tape-runner \"__tests__/**/*.js\"",
     "test": "npm run tape"
   },
+  "pre-push": ["test"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wildbit/stylelint-config-wildbit.git"
@@ -27,6 +28,7 @@
   "devDependencies": {
     "babel-tape-runner": "^2.0.0",
     "glob": "^6.0.3",
+    "pre-push": "^0.1.1",
     "stylelint": "^3.2.0",
     "tape": "^4.4.0"
   },
