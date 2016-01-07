@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Shareable stylelint config",
   "main": "index.js",
+  "bin": {
+    "precommit-stylelint": "./precommit-stylelint.sh"
+  },
   "scripts": {
     "tape": "babel-tape-runner \"__tests__/**/*.js\"",
     "test": "npm run tape"
