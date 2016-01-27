@@ -8,7 +8,7 @@ In the project you want to use styleling do the following
 1. `npm install -D stylelint wildbit/stylelint-config-wildbit`
 1. Add following code to your `package.json`:
 
-```
+```json
 "stylelint": {
   "extends": "stylelint-config-wildbit"
 }
