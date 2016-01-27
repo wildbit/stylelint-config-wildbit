@@ -5,10 +5,8 @@ Wildbit-specific config for stylelint
 
 In the project you want to use styleling do the following
 
-1. `npm install -D stylelint`
-2. `npm install -D git+https://github.com/wildbit/stylelint-config-wildbit.git`
-3. Create `.stylelintrc` in the root directory (where your package.json is located)
-4. Add following code to your `package.json`:
+1. `npm install -D stylelint wildbit/stylelint-config-wildbit`
+1. Add following code to your `package.json`:
 
 ```
 "stylelint": {
@@ -24,9 +22,9 @@ Linting makes more sense when running before committing the code.
 
 To add a pre-commit task:
 
-1. `npm install -D pre-commit`
-2. Add `"precommit-stylelint": "precommit-stylelint"` to `scripts` section of `package.json`
-3. Add `"pre-commit": [ "precommit-stylelint" ]` to `package.json`
+1. `npm install -D pre-commit lint-staged`
+2. Add `"stylelint-staged": "stylelint-staged"` to `scripts` section of `package.json`
+3. Add `"pre-commit": [ "stylelint-staged" ]` to `package.json`
 
 
 
