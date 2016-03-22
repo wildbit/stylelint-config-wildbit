@@ -18,7 +18,7 @@ module.exports = {
 
     'string-quotes': 'double',
     'color-no-invalid-hex': true,
-    'rule-properties-order': [
+    'declaration-block-properties-order': [
       'content',
       'display',
       'position',
