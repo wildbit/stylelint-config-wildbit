@@ -1,5 +1,4 @@
 module.exports = {
-  syntax: 'scss',
   plugins: [
     'stylelint-selector-bem-pattern'
   ],
