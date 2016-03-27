@@ -77,8 +77,24 @@ module.exports = {
         // Generated content
         'content',
 
-        // Visual formatting and box model
-        'display',             // if set to 'none' -> do not define 'position' and 'float'
+        // Flexbox child
+        'order',
+        'flex-grow',
+        'flex-shrink',
+        'flex-basis',
+        'flex',
+        'align-self',
+
+        // Flexbox parent
+        'display',
+        'flex-direction',
+        'flex-wrap',
+        'flex-flow',
+        'justify-content',
+        'align-items',
+        'align-content',
+
+        // Visual formatting
         'position',            // if set to 'absolute' or 'fixed' -> do not define 'float' and 'display'
         'top',
         'right',
@@ -88,6 +104,7 @@ module.exports = {
         'clear',
         'float',               // if not set to 'none' -> do not define 'block'
 
+        // Box model
         'box-sizing',
         'width',
         'min-width',
