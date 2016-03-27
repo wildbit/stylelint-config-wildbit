@@ -14,7 +14,7 @@ In the project you want to use styleling do the following
 }
 ```
 
-Additionally, put `"stylelint": "stylelint ./**/*.scss"` to the `scripts` section of `package.json`. Now you can lint your CSS files with stylelint by running `npm run stylelint`.
+Additionally, put `"stylelint": "stylelint --syntax scss ./**/*.scss"` to the `scripts` section of `package.json`. Now you can lint your CSS files with stylelint by running `npm run stylelint`.
 
 ## Adding a pre-commit hook
 
