@@ -26,10 +26,10 @@ module.exports = {
 
     // Function
     'function-calc-no-unspaced-operator': true,
-    'function-comma-space-after': 'always',
+    'function-comma-space-after': 'always-single-line',
     'function-comma-space-before': 'never',
     'function-linear-gradient-no-nonstandard-direction': true,
-    'function-parentheses-space-inside': 'never',
+    'function-parentheses-space-inside': 'never-single-line',
     'function-url-quotes': 'single',
     'function-whitespace-after': 'always',
 
