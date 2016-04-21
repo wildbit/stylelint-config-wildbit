@@ -29,6 +29,7 @@ module.exports = {
     'function-comma-space-after': 'always-single-line',
     'function-comma-space-before': 'never',
     'function-linear-gradient-no-nonstandard-direction': true,
+    'function-name-case': 'lower',
     'function-parentheses-space-inside': 'never-single-line',
     'function-url-quotes': 'single',
     'function-whitespace-after': 'always',
@@ -45,6 +46,10 @@ module.exports = {
     // Time
     'time-no-imperceptible': true,
 
+    // Unit
+    'unit-case': 'lower',
+    // 'unit-no-unknown': true, // TODO: enable when it'll support #{$x / 2}
+
     // Value
     'value-no-vendor-prefix': [true, {'severity': 'warning'}],
 
@@ -54,6 +59,7 @@ module.exports = {
     'value-list-comma-space-before': 'never',
 
     // Property
+    'property-case': 'lower',
     'property-no-vendor-prefix': [true, {'severity': 'warning'}],
 
     // Declaration
@@ -65,6 +71,7 @@ module.exports = {
 
     // Declaration block
     'declaration-block-no-duplicate-properties': true,
+    'declaration-block-no-ignored-properties': [true, {'severity': 'warning'}],
     'declaration-block-no-shorthand-property-overrides': true,
     'declaration-block-semicolon-newline-after': 'always-multi-line',
     'declaration-block-semicolon-newline-before': 'never-multi-line',
@@ -95,14 +102,14 @@ module.exports = {
         'align-content',
 
         // Visual formatting
-        'position',            // if set to 'absolute' or 'fixed' -> do not define 'float' and 'display'
+        'position',
         'top',
         'right',
         'bottom',
         'left',
-        'z-index',             // applies only if 'position' is not 'static'
+        'z-index',
         'clear',
-        'float',               // if not set to 'none' -> do not define 'block'
+        'float',
 
         // Box model
         'box-sizing',
@@ -189,6 +196,8 @@ module.exports = {
     'selector-no-id': true,
     'selector-no-universal': true,
     'selector-no-vendor-prefix': [true, {'severity': 'warning'}],
+    'selector-pseudo-class-case': 'lower',
+    'selector-pseudo-element-case': 'lower',
     'selector-pseudo-element-colon-notation': 'double',
     'selector-type-case': 'lower',
 
@@ -215,6 +224,7 @@ module.exports = {
     'max-nesting-depth': [3, {'severity': 'warning'}],
     'no-descending-specificity': null,
     'no-eol-whitespace': true,
+    'no-indistinguishable-colors': [true, {'threshold': 1, 'severity': 'warning'}],
     'no-invalid-double-slash-comments': true,
     'no-missing-eof-newline': true,
     'no-unknown-animations': true
