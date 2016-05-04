@@ -229,7 +229,7 @@ module.exports = {
     // Selector
     'selector-combinator-space-after': 'always',
     'selector-combinator-space-before': 'always',
-    'selector-no-id': true,
+    'selector-no-id': [true, {'severity': 'warning'}],
     'selector-no-universal': true,
     'selector-no-vendor-prefix': [true, {'severity': 'warning'}],
     'selector-pseudo-class-case': 'lower',
