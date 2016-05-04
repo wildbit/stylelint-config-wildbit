@@ -95,14 +95,14 @@ module.exports = {
         'align-content',
 
         // Visual formatting
-        'position',            // if set to 'absolute' or 'fixed' -> do not define 'float' and 'display'
+        'position',
         'top',
         'right',
         'bottom',
         'left',
-        'z-index',             // applies only if 'position' is not 'static'
+        'z-index',
         'clear',
-        'float',               // if not set to 'none' -> do not define 'block'
+        'float',
 
         // Box model
         'box-sizing',
@@ -113,12 +113,46 @@ module.exports = {
         'min-height',
         'max-height',
         'margin',
+        'margin-top',
+        'margin-right',
+        'margin-bottom',
+        'margin-left',
         'border',
+        'border-width',
+        'border-style',
+        'border-color',
+        'border-radius',
+        'border-top',
+        'border-top-width',
+        'border-top-style',
+        'border-top-color',
+        'border-top-left-radius',
+        'border-top-right-radius',
+        'border-right',
+        'border-right-width',
+        'border-right-style',
+        'border-right-color',
+        'border-bottom',
+        'border-bottom-width',
+        'border-bottom-style',
+        'border-bottom-color',
+        'border-bottom-right-radius',
+        'border-bottom-left-radius',
+        'border-left',
+        'border-left-width',
+        'border-left-style',
+        'border-left-color',
         'padding',
+        'padding-top',
+        'padding-right',
+        'padding-bottom',
+        'padding-left',
         'vertical-align',
 
         // Visual effects
         'overflow',
+        'overflow-x',
+        'overflow-y',
         'clip',
         'visibility',
 
@@ -142,6 +176,7 @@ module.exports = {
         'font-weight',
         'font-size',
         'font-family',
+        'src',
         'line-height',
 
         // Text
@@ -150,6 +185,7 @@ module.exports = {
         'text-decoration',
         'text-transform',
         'text-shadow',
+        'text-overflow',
         'letter-spacing',
         'word-spacing',
         'white-space',
