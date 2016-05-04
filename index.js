@@ -260,7 +260,6 @@ module.exports = {
     'max-nesting-depth': [3, {'severity': 'warning'}],
     'no-descending-specificity': null,
     'no-eol-whitespace': true,
-    'no-indistinguishable-colors': [true, {'threshold': 1, 'severity': 'warning'}],
     'no-invalid-double-slash-comments': true,
     'no-missing-eof-newline': true,
     'no-unknown-animations': true
