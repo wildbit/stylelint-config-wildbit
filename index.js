@@ -160,6 +160,8 @@ module.exports = {
         'overflow',
         'overflow-x',
         'overflow-y',
+        'overflow-wrap',
+        'overflow-scrolling',
         'clip',
         'visibility',
 
@@ -183,6 +185,7 @@ module.exports = {
         'font-weight',
         'font-size',
         'font-family',
+        'font-smoothing',
         'src',
         'line-height',
 
@@ -193,6 +196,7 @@ module.exports = {
         'text-transform',
         'text-shadow',
         'text-overflow',
+        'text-size-adjust',
         'letter-spacing',
         'word-spacing',
         'white-space',
