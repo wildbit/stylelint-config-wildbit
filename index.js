@@ -43,11 +43,8 @@ module.exports = {
     'string-no-newline': true,
     'string-quotes': 'single',
 
-    // Time
-    'time-no-imperceptible': true,
-
     // Unit
-    'unit-case': 'lower',
+    // 'unit-case': 'lower',    // TODO: enable with it'll work with hex colors
     // 'unit-no-unknown': true, // TODO: enable when it'll support #{$x / 2}
 
     // Value
