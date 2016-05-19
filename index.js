@@ -234,9 +234,11 @@ module.exports = {
     'selector-no-universal': true,
     'selector-no-vendor-prefix': [true, {'severity': 'warning'}],
     'selector-pseudo-class-case': 'lower',
+    'selector-pseudo-class-no-unknown': true,
     'selector-pseudo-element-case': 'lower',
     'selector-pseudo-element-colon-notation': 'double',
     'selector-type-case': 'lower',
+    'selector-type-no-unknown': [true, {'severity': 'warning'}],
 
     // Selector list
     'selector-list-comma-newline-after': 'always',
