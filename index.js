@@ -44,8 +44,8 @@ module.exports = {
     'string-quotes': 'single',
 
     // Unit
-    // 'unit-case': 'lower',    // TODO: enable with it'll work with hex colors
-    // 'unit-no-unknown': true, // TODO: enable when it'll support #{$x / 2}
+    'unit-case': 'lower',
+    'unit-no-unknown': true,
 
     // Value
     'value-no-vendor-prefix': [true, {'severity': 'warning'}],
