@@ -22,7 +22,7 @@ module.exports = {
     'color-no-invalid-hex': true,
 
     // Font family
-    'font-family-name-quotes': 'single-where-recommended',
+    'font-family-name-quotes': 'always-where-recommended',
 
     // Function
     'function-calc-no-unspaced-operator': true,
@@ -31,17 +31,19 @@ module.exports = {
     'function-linear-gradient-no-nonstandard-direction': true,
     'function-name-case': 'lower',
     'function-parentheses-space-inside': 'never-single-line',
-    'function-url-quotes': 'single',
+    'function-url-quotes': 'always',
     'function-whitespace-after': 'always',
 
     // Number
     'number-leading-zero': null,
     'number-no-trailing-zeros': true,
-    'number-zero-length-no-unit': true,
 
     // String
     'string-no-newline': true,
     'string-quotes': 'single',
+
+    // Length
+    'length-zero-no-unit': true,
 
     // Unit
     'unit-case': 'lower',
