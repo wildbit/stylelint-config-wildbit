@@ -66,7 +66,7 @@ module.exports = {
     'declaration-bang-space-before': 'always',
     'declaration-colon-space-after': null,
     'declaration-colon-space-before': 'never',
-    'declaration-no-important': [true, {'severity': 'warning'}],
+    // 'declaration-no-important': [true, {'severity': 'warning'}],
 
     // Declaration block
     'declaration-block-no-duplicate-properties': true,
@@ -232,7 +232,7 @@ module.exports = {
     // Selector
     'selector-combinator-space-after': 'always',
     'selector-combinator-space-before': 'always',
-    'selector-no-id': [true, {'severity': 'warning'}],
+    // 'selector-no-id': [true, {'severity': 'warning'}],
     'selector-no-universal': true,
     'selector-no-vendor-prefix': [true, {'severity': 'warning'}],
     'selector-pseudo-class-case': 'lower',
@@ -262,7 +262,7 @@ module.exports = {
 
     // General / Sheet
     'max-empty-lines': 3,
-    'max-nesting-depth': [3, {'severity': 'warning'}],
+    // 'max-nesting-depth': [3, {'severity': 'warning'}],
     'no-descending-specificity': null,
     'no-eol-whitespace': true,
     'no-invalid-double-slash-comments': true,
