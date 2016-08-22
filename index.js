@@ -1,20 +1,5 @@
 module.exports = {
-  plugins: [
-    'stylelint-selector-bem-pattern'
-  ],
   rules: {
-    // Our custom BEM linter rules
-    // Modified version of from https://github.com/postcss/postcss-bem-linter/blob/master/lib/preset-patterns.js#L39
-    'selector-bem-pattern': {
-      componentSelectors: function bemSelector(block) {
-        var WORD = '[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*';
-        var element = '(?:_' + WORD + ')?';
-        var modifier = '(?:--' + WORD + '){0,2}';
-        var attribute = '(?:\\[.+\\])?';
-        return new RegExp('^(\\.' + block + '|\\&)' + element + modifier + attribute + '$');
-      }
-    },
-
     // Color
     'color-hex-case': 'upper',
     'color-hex-length': 'short',
