@@ -7,7 +7,7 @@ module.exports = {
     'color-no-invalid-hex': true,
 
     // Font family
-    'font-family-name-quotes': 'single-where-recommended',
+    'font-family-name-quotes': 'always-where-recommended',
 
     // Function
     'function-calc-no-unspaced-operator': true,
@@ -16,17 +16,19 @@ module.exports = {
     'function-linear-gradient-no-nonstandard-direction': true,
     'function-name-case': 'lower',
     'function-parentheses-space-inside': 'never-single-line',
-    'function-url-quotes': 'single',
+    'function-url-quotes': 'always',
     'function-whitespace-after': 'always',
 
     // Number
     'number-leading-zero': null,
     'number-no-trailing-zeros': true,
-    'number-zero-length-no-unit': true,
 
     // String
     'string-no-newline': true,
     'string-quotes': 'single',
+
+    // Length
+    'length-zero-no-unit': true,
 
     // Unit
     'unit-case': 'lower',
@@ -43,6 +45,7 @@ module.exports = {
     // Property
     'property-case': 'lower',
     'property-no-vendor-prefix': [true, {'severity': 'warning'}],
+    'property-no-unknown': [true, {'severity': 'warning'}],
 
     // Declaration
     'declaration-bang-space-after': 'never',
@@ -224,6 +227,7 @@ module.exports = {
     'selector-pseudo-element-colon-notation': 'double',
     'selector-type-case': 'lower',
     'selector-type-no-unknown': [true, {'severity': 'warning'}],
+    'selector-attribute-quotes': 'always',
 
     // Selector list
     'selector-list-comma-newline-after': 'always',
@@ -238,7 +242,7 @@ module.exports = {
     'media-feature-no-missing-punctuation': true,
     'media-feature-range-operator-space-after': 'always',
     'media-feature-range-operator-space-before': 'always',
-    'media-query-parentheses-space-inside': 'never',
+    'media-feature-parentheses-space-inside': 'never',
 
     // Comment
     'comment-whitespace-inside': 'always',
@@ -249,7 +253,8 @@ module.exports = {
     'no-descending-specificity': null,
     'no-eol-whitespace': true,
     'no-invalid-double-slash-comments': true,
-    'no-missing-eof-newline': true,
-    'no-unknown-animations': true
+    'no-missing-end-of-source-newline': true,
+    'no-unknown-animations': true,
+    'no-extra-semicolons': true
   }
 }
