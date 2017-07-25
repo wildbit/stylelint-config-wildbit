@@ -220,7 +220,6 @@ module.exports = {
     // Selector
     'selector-combinator-space-after': 'always',
     'selector-combinator-space-before': 'always',
-    'selector-max-id': 0,
     'selector-max-universal': 0,
     'selector-no-vendor-prefix': [true, {'severity': 'warning'}],
     'selector-pseudo-class-case': 'lower',
