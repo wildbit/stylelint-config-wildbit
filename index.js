@@ -251,7 +251,6 @@ module.exports = {
     'comment-whitespace-inside': 'always',
 
     // General / Sheet
-    'indentation': 2,
     'max-empty-lines': 3,
     'no-descending-specificity': null,
     'no-eol-whitespace': true,
