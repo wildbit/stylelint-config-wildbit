@@ -11,6 +11,7 @@ module.exports = {
 
     // Font family
     'font-family-name-quotes': 'always-where-recommended',
+    'font-family-no-duplicate-names': true,
 
     // Function
     'function-calc-no-unspaced-operator': true,
@@ -59,6 +60,7 @@ module.exports = {
     // Declaration block
     'declaration-block-no-duplicate-properties': true,
     'declaration-block-no-shorthand-property-overrides': true,
+    'declaration-block-no-redundant-longhand-properties': true,
     'declaration-block-semicolon-newline-after': 'always-multi-line',
     'declaration-block-semicolon-newline-before': 'never-multi-line',
     'declaration-block-semicolon-space-after': 'always-single-line',
@@ -229,6 +231,7 @@ module.exports = {
     'selector-type-case': 'lower',
     'selector-type-no-unknown': [true, {'severity': 'warning'}],
     'selector-attribute-quotes': 'always',
+    'selector-descendant-combinator-no-non-space': true,
 
     // Selector list
     'selector-list-comma-newline-after': 'always',
@@ -248,6 +251,7 @@ module.exports = {
     'comment-whitespace-inside': 'always',
 
     // General / Sheet
+    'indentation': 2,
     'max-empty-lines': 3,
     'no-descending-specificity': null,
     'no-eol-whitespace': true,
