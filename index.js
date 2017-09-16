@@ -207,15 +207,16 @@ module.exports = {
     ],
 
     // Block
+    'block-closing-brace-empty-line-before': 'never',
     'block-closing-brace-newline-after': 'always',
     'block-closing-brace-newline-before': 'always-multi-line',
     'block-closing-brace-space-after': 'always-single-line',
     'block-closing-brace-space-before': 'always-single-line',
-    'block-no-empty': null,
     'block-opening-brace-newline-after': 'always-multi-line',
     'block-opening-brace-newline-before': 'never-single-line',
     'block-opening-brace-space-after': 'always-single-line',
     'block-opening-brace-space-before': 'always',
+    'block-no-empty': null,
 
     // Selector
     'selector-combinator-space-after': 'always',
@@ -240,12 +241,14 @@ module.exports = {
     // Media feature
     'media-feature-colon-space-after': 'always',
     'media-feature-colon-space-before': 'never',
+    'media-feature-name-case': 'lower',
     'media-feature-name-no-vendor-prefix': [true, {'severity': 'warning'}],
     'media-feature-range-operator-space-after': 'always',
     'media-feature-range-operator-space-before': 'always',
     'media-feature-parentheses-space-inside': 'never',
 
     // Comment
+    'comment-no-empty': true,
     'comment-whitespace-inside': 'always',
 
     // General / Sheet
