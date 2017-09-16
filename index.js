@@ -212,8 +212,6 @@ module.exports = {
     'block-closing-brace-space-after': 'always-single-line',
     'block-closing-brace-space-before': 'always-single-line',
     'block-no-empty': null,
-    'block-opening-brace-newline-after': ['always'],
-    'block-closing-brace-newline-before': ['always'],
     'block-opening-brace-newline-after': 'always-multi-line',
     'block-opening-brace-newline-before': 'never-single-line',
     'block-opening-brace-space-after': 'always-single-line',
