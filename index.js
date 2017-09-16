@@ -45,6 +45,7 @@ module.exports = {
     'value-list-comma-newline-after': 'always-multi-line',
     'value-list-comma-space-after': 'always-single-line',
     'value-list-comma-space-before': 'never',
+    'value-list-max-empty-lines': 0,
 
     // Property
     'property-case': 'lower',
@@ -242,6 +243,7 @@ module.exports = {
     'media-feature-colon-space-after': 'always',
     'media-feature-colon-space-before': 'never',
     'media-feature-name-case': 'lower',
+    'media-feature-name-no-unknown': true,
     'media-feature-name-no-vendor-prefix': [true, {'severity': 'warning'}],
     'media-feature-range-operator-space-after': 'always',
     'media-feature-range-operator-space-before': 'always',
