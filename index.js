@@ -61,7 +61,7 @@ module.exports = {
     // Declaration block
     'declaration-block-no-duplicate-properties': true,
     'declaration-block-no-shorthand-property-overrides': true,
-    'declaration-block-no-redundant-longhand-properties': true,
+    'declaration-block-no-redundant-longhand-properties': [true, {'severity': 'warning'}],
     'declaration-block-semicolon-newline-after': 'always-multi-line',
     'declaration-block-semicolon-newline-before': 'never-multi-line',
     'declaration-block-semicolon-space-after': 'always-single-line',
