@@ -45,6 +45,7 @@ module.exports = {
     'value-list-comma-newline-after': 'always-multi-line',
     'value-list-comma-space-after': 'always-single-line',
     'value-list-comma-space-before': 'never',
+    'value-list-max-empty-lines': 0,
 
     // Property
     'property-case': 'lower',
@@ -60,7 +61,7 @@ module.exports = {
     // Declaration block
     'declaration-block-no-duplicate-properties': true,
     'declaration-block-no-shorthand-property-overrides': true,
-    'declaration-block-no-redundant-longhand-properties': true,
+    'declaration-block-no-redundant-longhand-properties': [true, {'severity': 'warning'}],
     'declaration-block-semicolon-newline-after': 'always-multi-line',
     'declaration-block-semicolon-newline-before': 'never-multi-line',
     'declaration-block-semicolon-space-after': 'always-single-line',
@@ -207,17 +208,16 @@ module.exports = {
     ],
 
     // Block
+    'block-closing-brace-empty-line-before': 'never',
     'block-closing-brace-newline-after': 'always',
     'block-closing-brace-newline-before': 'always-multi-line',
     'block-closing-brace-space-after': 'always-single-line',
     'block-closing-brace-space-before': 'always-single-line',
-    'block-no-empty': null,
-    'block-opening-brace-newline-after': ['always'],
-    'block-closing-brace-newline-before': ['always'],
     'block-opening-brace-newline-after': 'always-multi-line',
     'block-opening-brace-newline-before': 'never-single-line',
     'block-opening-brace-space-after': 'always-single-line',
     'block-opening-brace-space-before': 'always',
+    'block-no-empty': null,
 
     // Selector
     'selector-combinator-space-after': 'always',
@@ -242,12 +242,15 @@ module.exports = {
     // Media feature
     'media-feature-colon-space-after': 'always',
     'media-feature-colon-space-before': 'never',
+    'media-feature-name-case': 'lower',
+    'media-feature-name-no-unknown': true,
     'media-feature-name-no-vendor-prefix': [true, {'severity': 'warning'}],
     'media-feature-range-operator-space-after': 'always',
     'media-feature-range-operator-space-before': 'always',
     'media-feature-parentheses-space-inside': 'never',
 
     // Comment
+    'comment-no-empty': true,
     'comment-whitespace-inside': 'always',
 
     // General / Sheet

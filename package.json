@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-wildbit",
-  "version": "1.2.0",
+  "version": "8.1.1",
   "description": "Shareable stylelint config",
   "main": "index.js",
   "repository": {
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/wildbit/stylelint-config-wildbit#readme",
   "dependencies": {
-    "stylelint": "~8.0.0",
+    "stylelint": "~8.1.1",
     "stylelint-order": "^0.6.0"
   }
 }
