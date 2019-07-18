@@ -14,4 +14,6 @@ quote_type = single
 spaces_around_operators = true
 
 [*.md]
-trim_trailing_whitespace = false
+trim_trailing_whitespace = false or true
+
+[*.txt]
