@@ -1,4 +1,7 @@
 module.exports = {
+  plugins: [
+    "stylelint-order"
+  ],
   rules: {
     // Color
     'color-hex-case': 'upper',
@@ -8,6 +11,7 @@ module.exports = {
 
     // Font family
     'font-family-name-quotes': 'always-where-recommended',
+    'font-family-no-duplicate-names': true,
 
     // Function
     'function-calc-no-unspaced-operator': true,
@@ -41,6 +45,7 @@ module.exports = {
     'value-list-comma-newline-after': 'always-multi-line',
     'value-list-comma-space-after': 'always-single-line',
     'value-list-comma-space-before': 'never',
+    'value-list-max-empty-lines': 0,
 
     // Property
     'property-case': 'lower',
@@ -52,19 +57,18 @@ module.exports = {
     'declaration-bang-space-before': 'always',
     'declaration-colon-space-after': null,
     'declaration-colon-space-before': 'never',
-    // 'declaration-no-important': [true, {'severity': 'warning'}],
 
     // Declaration block
     'declaration-block-no-duplicate-properties': true,
-    'declaration-block-no-ignored-properties': [true, {'severity': 'warning'}],
     'declaration-block-no-shorthand-property-overrides': true,
+    'declaration-block-no-redundant-longhand-properties': [true, {'severity': 'warning'}],
     'declaration-block-semicolon-newline-after': 'always-multi-line',
     'declaration-block-semicolon-newline-before': 'never-multi-line',
     'declaration-block-semicolon-space-after': 'always-single-line',
     'declaration-block-semicolon-space-before': 'never',
     'declaration-block-single-line-max-declarations': 1,
     'declaration-block-trailing-semicolon': 'always',
-    'declaration-block-properties-order': [
+    'order/properties-order': [
       [
         // Generated content
         'content',
@@ -204,22 +208,21 @@ module.exports = {
     ],
 
     // Block
+    'block-closing-brace-empty-line-before': 'never',
     'block-closing-brace-newline-after': 'always',
     'block-closing-brace-newline-before': 'always-multi-line',
     'block-closing-brace-space-after': 'always-single-line',
     'block-closing-brace-space-before': 'always-single-line',
-    'block-no-empty': null,
-    'block-no-single-line': true,
     'block-opening-brace-newline-after': 'always-multi-line',
     'block-opening-brace-newline-before': 'never-single-line',
     'block-opening-brace-space-after': 'always-single-line',
     'block-opening-brace-space-before': 'always',
+    'block-no-empty': null,
 
     // Selector
     'selector-combinator-space-after': 'always',
     'selector-combinator-space-before': 'always',
-    // 'selector-no-id': [true, {'severity': 'warning'}],
-    'selector-no-universal': true,
+    'selector-max-universal': 0,
     'selector-no-vendor-prefix': [true, {'severity': 'warning'}],
     'selector-pseudo-class-case': 'lower',
     'selector-pseudo-class-no-unknown': true,
@@ -228,6 +231,7 @@ module.exports = {
     'selector-type-case': 'lower',
     'selector-type-no-unknown': [true, {'severity': 'warning'}],
     'selector-attribute-quotes': 'always',
+    'selector-descendant-combinator-no-non-space': true,
 
     // Selector list
     'selector-list-comma-newline-after': 'always',
@@ -238,18 +242,19 @@ module.exports = {
     // Media feature
     'media-feature-colon-space-after': 'always',
     'media-feature-colon-space-before': 'never',
+    'media-feature-name-case': 'lower',
+    'media-feature-name-no-unknown': true,
     'media-feature-name-no-vendor-prefix': [true, {'severity': 'warning'}],
-    'media-feature-no-missing-punctuation': true,
     'media-feature-range-operator-space-after': 'always',
     'media-feature-range-operator-space-before': 'always',
     'media-feature-parentheses-space-inside': 'never',
 
     // Comment
+    'comment-no-empty': true,
     'comment-whitespace-inside': 'always',
 
     // General / Sheet
     'max-empty-lines': 3,
-    // 'max-nesting-depth': [3, {'severity': 'warning'}],
     'no-descending-specificity': null,
     'no-eol-whitespace': true,
     'no-invalid-double-slash-comments': true,
