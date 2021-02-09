@@ -112,22 +112,58 @@ module.exports = {
         // Generated content
         'content',
 
+        // Grid child
+        'grid-row',
+        'grid-row-start',
+        'grid-row-end',
+        'grid-column',
+        'grid-column-start',
+        'grid-column-end',
+        'grid-area',
+
         // Flexbox child
         'order',
         'flex',
         'flex-grow',
         'flex-shrink',
         'flex-basis',
+
+        // Grid & Flexbox child alignment
+        'place-self',
         'align-self',
+        'justify-self',
+
+        // Display
+        'display',
+
+        // Grid parent
+        'grid',
+        'grid-template',
+        'grid-template-rows',
+        'grid-template-columns',
+        'grid-template-areas',
+        'grid-auto-rows',
+        'grid-auto-columns',
+        'grid-auto-flow',
+        'gap',
+        'row-gap',
+        'column-gap',
+        'grid-gap', // Old version of 'gap'
+        'grid-row-gap',
+        'grid-column-gap',
 
         // Flexbox parent
-        'display',
         'flex-flow',
         'flex-direction',
         'flex-wrap',
-        'justify-content',
+
+        // Grid & Flexbox alignment
+        'place-items',
         'align-items',
+        'justify-items',
+        'place-content',
         'align-content',
+        'justify-content',
 
         // Visual formatting
         'position',
@@ -240,8 +276,27 @@ module.exports = {
         'outline',
         'pointer-events',
 
-        // Animation
+        // Transforms
+        'transform',
+        'transform-origin',
+
+        // Transitions
+        'transition',
+        'transition-property',
+        'transition-duration',
+        'transition-timing-function',
+        'transition-delay',
+
+        // Animations
         'animation',
+        'animation-name',
+        'animation-duration',
+        'animation-timing-function',
+        'animation-delay',
+        'animation-iteration-count',
+        'animation-direction',
+        'animation-fill-mode',
+        'animation-play-state',
       ],
       {'severity': 'warning'}
     ],
