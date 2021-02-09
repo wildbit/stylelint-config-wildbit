@@ -114,17 +114,17 @@ module.exports = {
 
         // Flexbox child
         'order',
+        'flex',
         'flex-grow',
         'flex-shrink',
         'flex-basis',
-        'flex',
         'align-self',
 
         // Flexbox parent
         'display',
+        'flex-flow',
         'flex-direction',
         'flex-wrap',
-        'flex-flow',
         'justify-content',
         'align-items',
         'align-content',
