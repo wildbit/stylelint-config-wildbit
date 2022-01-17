@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'stylelint-config-standard',
+  extends: 'stylelint-config-standard-scss',
   plugins: [
     'stylelint-order',
     'stylelint-scss'
@@ -34,6 +34,7 @@ module.exports = {
     // Value
     'value-keyword-case': null, // 'lower' in standard
     'value-no-vendor-prefix': [true, {'severity': 'warning'}],
+    'length-zero-no-unit': [true, {'severity': 'warning'}],
 
     // Property
     'property-no-vendor-prefix': [true, {'severity': 'warning'}],
@@ -53,6 +54,7 @@ module.exports = {
     'block-no-empty': null, // true in recommended
 
     // Selector
+    'selector-class-pattern': null,
     'selector-max-universal': 0,
     'selector-no-vendor-prefix': [true, {'severity': 'warning'}],
     'selector-attribute-quotes': 'always',
@@ -70,6 +72,7 @@ module.exports = {
     // General / Sheet
     indentation: null, // 2 in standard
     'max-empty-lines': 3, // 1 in standard
+    'max-line-length': null,
     'rule-empty-line-before': null, // true in standard
     'no-duplicate-selectors': [true, {'severity': 'warning'}], // true in recommended
     'no-descending-specificity': null, // true in recommended
@@ -78,6 +81,8 @@ module.exports = {
 
     // Plugin stylelint-scss
     // ---------------------
+
+    'scss/no-global-function-names': null,
 
     // @each
     'scss/at-each-key-value-single-line': true,
@@ -95,6 +100,7 @@ module.exports = {
     // $ variable
     'scss/dollar-variable-colon-space-after': 'at-least-one-space',
     'scss/dollar-variable-colon-space-before': 'never',
+    'scss/dollar-variable-empty-line-before': null,
 
     // Selector
     'scss/selector-no-redundant-nesting-selector': true,
@@ -313,7 +319,6 @@ module.exports = {
 // no-duplicate-at-import-rules - recommended
 // keyframes-name-pattern
 // no-empty-first-line
-// function-calc-no-invalid - recommended
 // alpha-value-notation
 // color-function-notation
 // hue-degree-notation
